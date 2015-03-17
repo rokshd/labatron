@@ -1,1 +1,30 @@
-<h1>Coming Soon</h1>
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <% content_for :title, "Labatron.RU" %>
+    <style type="text/css" media="screen">
+      h1 {
+        text-align: center;
+        margin: 0;
+        padding-bottom: 0.5em;
+        font: 500% sans-serif;
+        color: #226;
+        border-bottom: 4px dotted #081588;
+      }
+      #banner {
+        background: #6fcc22;
+        padding: 8px;
+        border-bottom: 5px solid;
+        font: small-caps 35px/35px "Times New Roman", serif;
+        color: #081588;
+        text-align: center;
+        padding-left: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="banner">Labatron.RU</div>
+<br><br><br><h1>Скоро открытие!</h1>
+</body>
+</html>
